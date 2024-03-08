@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.message-container {
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.message-container:last-child {
+    margin-bottom: 0;
+}
+
+.user-message {
+    background-color: #c5e1a5;
+    color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20%;
+    float: right;
+    clear: both;
+    max-width: 70%;
+}
+
+.bot-message {
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20%;
+    float: left;
+    clear: both;
+    max-width: 70%;
+}
+
+input[type="text"] {
+    width: calc(100% - 70px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 70px;
+    padding: 10px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
